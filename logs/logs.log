@@ -1,0 +1,51 @@
+2025-01-30T04:41:14.226Z  INFO 17588 --- [restartedMain] c.g.ecommerce.StockMsApplication         : Starting StockMsApplication using Java 21.0.5 with PID 17588 (C:\Users\Kaba\Documents\Java EE\TP JEE\microservice_ms\target\classes started by Kaba in C:\Users\Kaba\Documents\Java EE\TP JEE\microservice_ms)
+2025-01-30T04:41:14.241Z  INFO 17588 --- [restartedMain] c.g.ecommerce.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T04:41:14.341Z  INFO 17588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-30T04:41:14.344Z  INFO 17588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-30T04:41:16.730Z  INFO 17588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T04:41:16.872Z  INFO 17588 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
+2025-01-30T04:41:18.406Z  INFO 17588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T04:41:18.433Z  INFO 17588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T04:41:18.436Z  INFO 17588 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-01-30T04:41:18.545Z  INFO 17588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T04:41:18.546Z  INFO 17588 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4191 ms
+2025-01-30T04:41:18.760Z  INFO 17588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T04:41:19.264Z  INFO 17588 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:security-db user=USERNAME
+2025-01-30T04:41:19.266Z  INFO 17588 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T04:41:19.280Z  INFO 17588 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:security-db'
+2025-01-30T04:41:19.440Z DEBUG 17588 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-01-30T04:41:19.693Z  INFO 17588 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T04:41:19.854Z  INFO 17588 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-01-30T04:41:19.937Z  INFO 17588 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T04:41:20.443Z  INFO 17588 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T04:41:20.598Z  WARN 17588 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T04:41:20.640Z  INFO 17588 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T04:41:22.146Z  INFO 17588 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T04:41:22.252Z  INFO 17588 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T04:41:23.258Z  WARN 17588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T04:41:23.538Z DEBUG 17588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2025-01-30T04:41:23.780Z DEBUG 17588 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-30T04:41:23.912Z DEBUG 17588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-30T04:41:24.085Z DEBUG 17588 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-30T04:41:24.864Z  INFO 17588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-30T04:41:24.879Z  INFO 17588 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-01-30T04:41:25.030Z  INFO 17588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T04:41:25.052Z  INFO 17588 --- [restartedMain] c.g.ecommerce.StockMsApplication         : Started StockMsApplication in 11.866 seconds (process running for 13.713)
+2025-01-30T04:41:25.593Z  INFO 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T04:41:25.593Z  INFO 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T04:41:25.594Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-01-30T04:41:25.594Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-01-30T04:41:25.594Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-01-30T04:41:25.597Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18a944c4
+2025-01-30T04:41:25.599Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@766424a6
+2025-01-30T04:41:25.599Z DEBUG 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-30T04:41:25.599Z  INFO 17588 --- [RMI TCP Connection(2)-192.168.1.2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-01-30T04:53:38.967Z  WARN 17588 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s588ms632µs).
+2025-01-30T09:02:37.511Z  WARN 17588 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h9m15s234ms732µs300ns).
